@@ -1,10 +1,10 @@
 'use client';
 import { IconButton, Icon } from '@expo/ui/jetpack-compose';
 
-import type { NativeToolbarButtonProps } from './types';
 import { AnimatedItemContainer } from '../../../../toolbar/AnimatedItemContainer';
 import { useToolbarColors } from '../context';
 import { DEFAULT_TOOLBAR_TINT_COLOR } from '../defaults';
+import type { NativeToolbarButtonProps } from './types';
 
 /**
  * Native toolbar button component for Android bottom toolbar.
